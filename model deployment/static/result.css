@@ -1,0 +1,81 @@
+body {
+    background-image: url('https://www.bhf.org.uk/-/media/news-images/2023/november/ai-heart-640x410.jpg?w=100%25&rev=a6e2aa1583e74e5ba0bc15edb274c250&hash=EF1191C0E90A3025A7AD7668B3C6BC6A');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 600px;
+
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Courier New';
+}
+
+.result {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.negative {
+    color: #2f2d2d;
+    font-size: 30px;
+    font-family: georgia;
+}
+
+.negative h2 {
+    color: #190101;
+    margin-top: 0;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+.positive {
+    color: #2f2d2d;
+    font-size: 30px;
+    font-family: georgia;
+}
+.positive h2 {
+    color: #190101;
+    margin-top: 0;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px; /* Adjust the margin as needed */
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn:hover {
+    background-color: #20bc28;
+}
